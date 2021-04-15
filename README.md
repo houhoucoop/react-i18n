@@ -46,7 +46,8 @@ const MyComponent = () => {
 ```
 ## Usage
 ### IntlProvider
-Component used to provide i18n context to child components.
+
+> Component used to provide i18n context to child components.
 
 -   `locale` - The locale language, it will be converted to uppercase in order to matches the keys in translations.
 -   `translations` - This should be an object
@@ -54,7 +55,8 @@ Component used to provide i18n context to child components.
     strings.
 
 ### useIntl
-Provides a React hook which lets you
+
+> Provides a React hook which lets you
 call into the translate function directly.
 
 -   `t` - The locale to translate things into.
@@ -74,7 +76,8 @@ const Component = () => {
 }
 ```
 ### Intal
-Get the translate function in render props way.
+
+> Get the translate function in render props way.
 
 -   `t` - The locale to translate things into.
 -   `setLocale` - Set current locale to another.
