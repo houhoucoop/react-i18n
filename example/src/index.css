@@ -6,9 +6,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sample {
+  min-width: 300px;
+  max-width: 60%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.button-group button {
+  border: 0;
+  background: #efefef;
+  width: 100px;
+  height: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
 }
